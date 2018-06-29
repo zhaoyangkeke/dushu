@@ -1,11 +1,15 @@
-项目介绍
+> 项目介绍
+
   这是一个全新的读书平台,在全新的文化世界里,我们国家近几年,又兴起了,魔幻,玄幻,穿越,的网络小说,在这个小米书城中我们可以,观看到你想看的所有,一致受到了广大网友的好评
 
-技术栈
+>技术栈
+
 gulp + require + jquery + handlebars + ES6/7 + ajax + sass + flex + 懒加载
 
-目录结构
-dushu
+>目录结构
+
+>dushu
+
     |——mock
     |    |——data
     |    |    |---352876.json    //老九门数据
@@ -75,4 +79,9 @@ dushu
     |    |-index.html            //首页
     |-gulpfile.js
 
+
+![image](./buld/image/0180629161704.png)
+![image](./buld/image/20180629161830.png)
+![image](./buld/image/20180629161901.png)
+![image](./buld/image/20180629161932.png)
     
