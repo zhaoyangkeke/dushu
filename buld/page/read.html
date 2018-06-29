@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="../css/read.css"><link rel="stylesheet" href="../fonts/iconfont.css"><script src="../js/lib/require.js"></script><script>require(['../js/main'], function() {
+            require(['read']);
+        })</script></head><body><div class="wrap"><header><div class="book-name"><i class="icon iconfont icon-zuojiantou-01" onclick="history.back()"></i><h3>返回</h3></div><i class="icon iconfont icon-gengduo"></i></header><section><div class="scroll"></div></section><footer><div class="math"><ul><li><span class="prevBtn">上一章</span></li><li><span><b class="sums">1</b>/<b class="sum">1068</b></span></li><li><span class="nextBtn">下一章</span></li></ul></div><div class="use"><ol><li><i class="icon iconfont icon-gengduo-2"></i> <span class="mulu">目录</span></li><li><i class="icon iconfont icon-quora"></i> <span class="fontBtn">字体</span></li><li><i class="icon iconfont icon-twitter2"></i> <span>夜间</span></li><li><i class="icon iconfont icon-xiazai"></i> <span>下载</span></li></ol></div><div class="style"><div class="font-size"><p><span>字号</span> <b>大</b> <b>小</b></p></div><div class="background"><p><span>背景</span> <s></s> <s></s> <s></s> <s></s></p></div></div></footer></div><script type="text/x-handlebars-template" class="html"><div class="ti-mu">
+            <h2>{{t}}</h2>
+        </div>
+
+        {{#each p}}
+        <p>{{this}}</p>
+        {{/each}}</script></body></html>
